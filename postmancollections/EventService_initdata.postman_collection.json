@@ -20,7 +20,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3101/events/status",
+					"raw": "http://192.168.49.2:31001/events/status",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -52,7 +52,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3101/events",
+					"raw": "http://192.168.49.2:31001/events",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -74,7 +74,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.49.2:3101/events/1/users/1",
+					"raw": "http://192.168.49.2:31001/events/1/users/1",
 					"protocol": "http",
 					"host": [
 						"192",
