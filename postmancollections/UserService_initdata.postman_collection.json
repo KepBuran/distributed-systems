@@ -20,7 +20,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3100/users/role",
+					"raw": "http://192.168.49.2:31000/users/role",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -52,7 +52,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3100/users/role",
+					"raw": "http://192.168.49.2:31000/users/role",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -84,7 +84,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3100/users",
+					"raw": "http://192.168.49.2:31000/users",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -115,7 +115,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3100/users",
+					"raw": "http://192.168.49.2:31000/users",
 					"protocol": "http",
 					"host": [
 						"192",
