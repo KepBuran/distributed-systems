@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.49.2:3101/events/1/tasks",
+					"raw": "http://192.168.49.2:31001/events/1/tasks",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -35,7 +35,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.49.2:3101/events/1/full_info",
+					"raw": "http://192.168.49.2:31001/events/1/full_info",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -59,7 +59,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.49.2:3100/users/1/events",
+					"raw": "http://192.168.49.2:31000/users/1/events",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -83,7 +83,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.49.2:3100/users/1/tasks",
+					"raw": "http://192.168.49.2:31000/users/1/tasks",
 					"protocol": "http",
 					"host": [
 						"192",
