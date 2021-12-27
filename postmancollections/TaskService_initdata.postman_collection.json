@@ -20,7 +20,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3102/tasks/status",
+					"raw": "http://192.168.49.2:31002/tasks/status",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -52,7 +52,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3102/tasks",
+					"raw": "http://192.168.49.2:31002/tasks",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -83,7 +83,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.49.2:3102/tasks",
+					"raw": "http://192.168.49.2:31002/tasks",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -105,7 +105,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.49.2:3102/tasks/1/user/1",
+					"raw": "http://192.168.49.2:31002/tasks/1/user/1",
 					"protocol": "http",
 					"host": [
 						"192",
