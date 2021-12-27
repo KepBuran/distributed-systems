@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "7f4d9d99-664c-4613-a8ba-15b26cc4884a",
+		"name": "EventService_initdata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Preparing status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Preparing\",\n    \"color\": \"Yellow\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.49.2:3101/events/status",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"49",
+						"2"
+					],
+					"port": "3101",
+					"path": [
+						"events",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Rockfest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Rockfest\",\n    \"location\" : \"Stadium\",\n    \"date\" : \"2022-02-27T00:00:00.000+00:00\",\n    \"statusId\" : \"1\"\n\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.49.2:3101/events",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"49",
+						"2"
+					],
+					"port": "3101",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add user to event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.49.2:3101/events/1/users/1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"49",
+						"2"
+					],
+					"port": "3101",
+					"path": [
+						"events",
+						"1",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
