@@ -5,4 +5,5 @@ Three services:
 • service for tasks
 
 h2 in-memory db used
+
 communication via restTemplate
